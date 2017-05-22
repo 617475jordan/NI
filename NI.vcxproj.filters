@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="APIofIQA.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="bm3d.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="denoising.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEnhancement.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageQuality.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageQualityAssessment.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Photoshop.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionGrowing.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="rtcprgb2gray.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="dehazing.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="guidedfilter.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Transmission.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="APIofIQA.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="bm3d.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="convolution1.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="convolution2.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="convolution3.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="denoising.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEnhancement.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageQuality.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageQualityAssessment.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="mainhead.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Photoshop.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionGrowing.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="rtcprgb2gray.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="dehazing.h">
+      <Filter>HeadFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HeadFiles">
+      <UniqueIdentifier>{daf974b6-16b9-48a6-b51b-8e84b4ee9c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{e876b21b-4753-4e49-82ac-4140f29958ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
