@@ -12,6 +12,7 @@ class imageEnhancement
 {
 public:
 	Mat SimplestCB(Mat& in, float percent);
+	Mat equalizehist(Mat&src);
 	imageEnhancement();
 	~imageEnhancement();
 };

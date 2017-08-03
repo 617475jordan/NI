@@ -40,3 +40,14 @@ Mat imageEnhancement::SimplestCB(Mat& in,  float percent)
 	
 	return out;
 }
+
+Mat imageEnhancement::equalizehist(Mat&src)
+{
+	Mat imageRGB[3];
+	split(src, imageRGB);
+	for (int i = 0; i < 3; i++)
+	{
+		equalizeHist(imageRGB[i], imageRGB[i]);
+	}
+	merge(imageRGB, 3, src);
+}
