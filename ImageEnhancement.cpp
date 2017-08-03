@@ -13,7 +13,7 @@ imageEnhancement::~imageEnhancement()
 Mat imageEnhancement::SimplestCB(Mat& in,  float percent)
 {
 	Mat out;
-	clock_t startTime = clock();
+	
 	assert(in.channels() == 3);
 	assert(percent > 0 && percent < 100);
 
@@ -37,6 +37,6 @@ Mat imageEnhancement::SimplestCB(Mat& in,  float percent)
 		normalize(tmpsplit[i], tmpsplit[i], 0, 255, NORM_MINMAX);
 	}
 	merge(tmpsplit, out);
-	cout << "time: " << clock() - startTime << "ms" << endl;
+	
 	return out;
 }
