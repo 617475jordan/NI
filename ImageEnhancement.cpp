@@ -1,5 +1,13 @@
 #include "ImageEnhancement.h"
 
+imageEnhancement::imageEnhancement()
+{
+
+}
+imageEnhancement::~imageEnhancement()
+{
+
+}
 /// perform the Simplest Color Balancing algorithm
 /**********OpenCV_Auto_White_Balance*************/
 Mat imageEnhancement::SimplestCB(Mat& in,  float percent)
@@ -12,7 +20,8 @@ Mat imageEnhancement::SimplestCB(Mat& in,  float percent)
 	float half_percent = percent / 200.0f;
 
 	vector<Mat> tmpsplit; split(in, tmpsplit);
-	for (int i = 0; i<3; i++) {
+	for (int i = 0; i<3; i++) 
+	{
 		//find the low and high precentile values (based on the input percentile)
 		Mat flat; tmpsplit[i].reshape(1, 1).copyTo(flat);
 		cv::sort(flat, flat, CV_SORT_EVERY_ROW + CV_SORT_ASCENDING);

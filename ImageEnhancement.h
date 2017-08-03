@@ -12,5 +12,7 @@ class imageEnhancement
 {
 public:
 	Mat SimplestCB(Mat& in, float percent);
+	imageEnhancement();
+	~imageEnhancement();
 };
 #endif
