@@ -50,4 +50,5 @@ Mat imageEnhancement::equalizehist(Mat&src)
 		equalizeHist(imageRGB[i], imageRGB[i]);
 	}
 	merge(imageRGB, 3, src);
+	return src;
 }
